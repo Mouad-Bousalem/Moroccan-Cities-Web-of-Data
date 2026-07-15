@@ -29,7 +29,7 @@ Comprendre la densité de population à travers les régions du Maroc en tenant 
 
 **Carte finale des villes marocaines** (taille = population, couleur = densité) :
 
-![Visualisation carte](images/map-visualization.png)
+![Visualisation carte](map-visualization.png)
 
 **Résultats de la requête SPARQL** (villes, population, distance à Rabat) :
 
