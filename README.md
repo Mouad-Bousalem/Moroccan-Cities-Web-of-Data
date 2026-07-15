@@ -1,5 +1,4 @@
 # Moroccan-Cities-Web-of-Data
-# 🇲🇦 Moroccan Cities Web of Data
 
 Projet de Web sémantique visant à analyser la répartition des villes marocaines en fonction de leur **population** et de leur **distance par rapport à la capitale (Rabat)**, à l'aide des technologies du Linked Data et de requêtes géospatiales SPARQL.
 
