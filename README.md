@@ -33,15 +33,15 @@ Comprendre la densité de population à travers les régions du Maroc en tenant 
 
 **Résultats de la requête SPARQL** (villes, population, distance à Rabat) :
 
-![Résultats SPARQL](images/sparql-query-results.png)
+![Résultats SPARQL](sparql-query-results.png)
 
 **Liaison GraphDB ↔ Wikidata** pour récupérer les populations actualisées :
 
-![Liaison GraphDB Wikidata](images/graphdb-wikidata-link.png)
+![Liaison GraphDB Wikidata](graphdb-wikidata-link.png)
 
 **Script de conversion des coordonnées en WKT** :
 
-![Conversion WKT](images/wkt-conversion-script.png)
+![Conversion WKT](wkt-conversion-script.png)
 
 ## 🚀 Lancer Yasgui localement
 
