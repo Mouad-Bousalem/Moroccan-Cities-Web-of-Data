@@ -1,0 +1,263 @@
+@prefix wod: <http://www.semanticweb.org/mouad/ontologies/2025/0/wod-project/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+wod:city1504023252 wod:hasPopulation 509916.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Rabat";
+  owl:sameAs wd:Q3551 .
+
+wod:city1504175315 wod:hasPopulation 3215935.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Casablanca";
+  owl:sameAs wd:Q7903 .
+
+wod:city1504637172 wod:hasPopulation 133731.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Larache";
+  owl:sameAs wd:Q606775 .
+
+wod:city1504164174 wod:hasPopulation 76134.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Tan-Tan";
+  owl:sameAs wd:Q936316 .
+
+wod:city1504419242 wod:hasPopulation 52663.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Temsia";
+  owl:sameAs wd:Q600883 .
+
+wod:city1504892254 wod:hasPopulation 57360.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Jdour";
+  owl:sameAs wd:Q599897 .
+
+wod:city1504779155 wod:hasPopulation 46540.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Al Aaroui";
+  owl:sameAs wd:Q613913 .
+
+wod:city1504964063 wod:hasPopulation 237464.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "El Jadid";
+  owl:sameAs wd:Q219583 .
+
+wod:city1504845522 wod:hasPopulation 82962.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Essaouira";
+  owl:sameAs wd:Q216939 .
+
+wod:city1504405154 wod:hasPopulation 150763.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Taza";
+  owl:sameAs wd:Q574469 .
+
+wod:city1504253957 wod:hasPopulation 150763.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Taza";
+  owl:sameAs wd:Q574469 .
+
+wod:city1504861504 wod:hasPopulation 1275428.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Tangier";
+  owl:sameAs wd:Q126148 .
+
+wod:city1504270532 wod:hasPopulation 22696.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Sidi Ifni";
+  owl:sameAs wd:Q632361 .
+
+wod:city1504542634 wod:hasPopulation 194358.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Mohammedia";
+  owl:sameAs wd:Q647417 .
+
+wod:city1504039594 wod:hasPopulation 29628.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Selouane";
+  owl:sameAs wd:Q280853 .
+
+wod:city1504016606 wod:hasPopulation 297098.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Temara";
+  owl:sameAs wd:Q1635606 .
+
+wod:city1504098746 wod:hasPopulation 93776.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Oued Zem";
+  owl:sameAs wd:Q1724990 .
+
+wod:city1504676037 wod:hasPopulation 36039.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Asilah";
+  owl:sameAs wd:Q730328 .
+
+wod:city1504487887 wod:hasPopulation 10449.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Figuig";
+  owl:sameAs wd:Q425646 .
+
+wod:city1504656119 wod:hasPopulation 13964.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Ifrane";
+  owl:sameAs wd:Q1001887 .
+
+wod:city1504110861 wod:hasPopulation 126729.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Guelmim";
+  owl:sameAs wd:Q842806 .
+
+wod:city1504811178 wod:hasPopulation 158202.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Nador";
+  owl:sameAs wd:Q824594 .
+
+wod:city1504720478 wod:hasPopulation 171556.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Settat";
+  owl:sameAs wd:Q818019 .
+
+wod:city1504820285 wod:hasPopulation 86903.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Sefrou";
+  owl:sameAs wd:Q1009308 .
+
+wod:city1504005759 wod:hasPopulation 97687.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Errachidia";
+  owl:sameAs wd:Q1980885 .
+
+wod:city1504534876 wod:hasPopulation 507736.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Kenitra";
+  owl:sameAs wd:Q478207 .
+
+wod:city1504593239 wod:hasPopulation 10907.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Bni Drar";
+  owl:sameAs wd:Q2907474 .
+
+wod:city1504989034 wod:hasPopulation 97380.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Sale";
+  owl:sameAs wd:Q2895854 .
+
+wod:city1504842310 wod:hasPopulation 80703.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Guercif";
+  owl:sameAs wd:Q2330467 .
+
+wod:city1504648957 wod:hasPopulation 100402.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Taourirt";
+  owl:sameAs wd:Q2329701 .
+
+wod:city1504616385 wod:hasPopulation 100402.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Aourir";
+  owl:sameAs wd:Q2329701 .
+
+wod:city1504116858 wod:hasPopulation 504768.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Agadir";
+  owl:sameAs wd:Q170525 .
+
+wod:city1504368806 wod:hasPopulation 43598.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Bouknadel";
+  owl:sameAs wd:Q3483204 .
+
+wod:city1504459034 wod:hasPopulation 65669.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Youssoufia";
+  owl:sameAs wd:Q2627209 .
+
+wod:city1504260154 wod:hasPopulation 31431.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Zeghanghane";
+  owl:sameAs wd:Q184459 .
+
+wod:city1504000717 wod:hasPopulation 323888.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Safi";
+  owl:sameAs wd:Q183405 .
+
+wod:city1504661999 wod:hasPopulation 103850.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Tiflet";
+  owl:sameAs wd:Q2501786 .
+
+wod:city1504259447 wod:hasPopulation 47209.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Boujad";
+  owl:sameAs wd:Q895029 .
+
+wod:city1504565730 wod:hasPopulation 39114.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Taounate";
+  owl:sameAs wd:Q2548730 .
+
+wod:city1504909564 wod:hasPopulation 114872.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Ben Guerir";
+  owl:sameAs wd:Q2542724 .
+
+wod:city1504708598 wod:hasPopulation 11690.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Oued Laou";
+  owl:sameAs wd:Q3099183 .
+
+wod:city1504139417 wod:hasPopulation 14624.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Goulmima";
+  owl:sameAs wd:Q3111649 .
+
+wod:city1504230609 wod:hasPopulation 41014.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Jerada";
+  owl:sameAs wd:Q2287316 .
+
+wod:city1504503306 wod:hasPopulation 200359.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Bouskoura";
+  owl:sameAs wd:Q2294847 .
+
+wod:city1504320897 wod:hasPopulation 200359.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Skoura";
+  owl:sameAs wd:Q2294847 .
+
+wod:city1504202051 wod:hasPopulation 33469.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Ben Ahmed";
+  owl:sameAs wd:Q2294808 .
+
+wod:city1504134516 wod:hasPopulation 210870.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Ait Melloul";
+  owl:sameAs wd:Q2384142 .
+
+wod:city1504840361 wod:hasPopulation 12391.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Boumalne";
+  owl:sameAs wd:Q2435851 .
+
+wod:city1504893162 wod:hasPopulation 56201.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Sidi Bennour";
+  owl:sameAs wd:Q4418748 .
+
+wod:city1504101128 wod:hasPopulation 95114.0;
+  wod:hasPopulationDate "2024-01-01T00:00:00Z"^^xsd:dateTime;
+  wod:name "Sidi Slimane";
+  owl:sameAs wd:Q2359952 .
